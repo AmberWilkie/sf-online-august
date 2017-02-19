@@ -1,18 +1,12 @@
-# Best Slow Food
+# Slow Food Online
 
-  Best slow food is an application we as a group of 5 students are
-  developing during our bootcamp here in Craft Academy Gothenburg
-  using ruby on rails.
+An online application to allow restaurant owners to sell food to hungry patrons. Restaurants have menus made up of dishes. Customers can order dishes and pick them up.
 
-  We're designing an app to make it easier for a restaurant owner and
-  a customer to said restaurant to communicate by having system where
-  you can both order or deliver food depending on your role.
+Built for the [Craft Academy](http://www.craftacademy.se) programming bootcamp.
 
-  And if you're just looking for a certain style of food you can
-  find restaurants of your choice using our app locating nearby
-  restaurants on a map for you.
+### Deployed & Mobile
 
-  You can take a look at it's current state right [**here**](http://slow-food-august.herokuapp.com/)
+This project was largely abandoned after three weeks of work, but lives in perpetuity on [Heroku](http://slow-food-august.herokuapp.com/).
 
 
 # Installation
@@ -43,8 +37,12 @@
 * [Coveralls](https://coveralls.io/) for test coverage
 
 ## Gems of Note
-* Devise for User authentication
-* [Paperclip](https://github.com/thoughtbot/paperclip) for image uploading
+- Devise for User authentication
+- [Paperclip](https://github.com/thoughtbot/paperclip) for image uploading
+- Geocoder for, of all things, geocoding
+- GMaps.js
+- Gon for easy transfer of variables between Ruby and Javascript
+- Stripe
 
 ## Dependencies
 
